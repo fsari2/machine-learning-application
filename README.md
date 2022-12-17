@@ -27,13 +27,13 @@ But still I want to try `label-encoder` and `one-hot-encoded`. Here are the accu
 - GBM after applying OHE: 85% 
 - XGB with applied OHE: 88%
 - Random Forest Classifier with applied OHE: 89%
-- SVM Classifier with applied OHE: 
 
 ### Conclusions
-- The built models have accuracy between , and the is the best model among them
-- SHAP cannot use for GBM Classifier as it requires target with binary number (0 and 1) only
-- Every model has different important features
-- SHAP, permutation importance, and feature importance helps to understand the way model predict the target, yet SHAP has more features to see the individual class
+- The application of feature engineering both label and one-hot encoder not really improved the accuracy
+- Every model has different weight of the most importance feature
+- The built models have accuracy between 84 - 88%, and the random forest classifier is the best model among them
+- SHAP cannot use for GBM Classifier as it requires target with binary number (0 and 1) only and it took very long time to be applied for random forest model
+- SHAP, permutation importance, and feature importance helps to understand the way model predict the target, yet SHAP has more features to see the individual class.
 
 ### Limitation of this study
 No attempt to tune the hyperparameters except for GBM Classifier with `learning-rate`
