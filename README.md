@@ -47,7 +47,7 @@ No attempt to tune the hyperparameters except for GBM Classifier with `learning-
 
 #### Copyright :mega: 
 
-Full code can be found on here: [App. Explainable Machine Learning](https://github.com/atmsillinois/feature-engineering-and-xai-fsari2/blob/main/HW06_Fitria.ipynb). 
+Full code can be found on here: [App. Explainable Machine Learning](https://github.com/fsari2/machine-learning-application/blob/main/HW08_Fitria.ipynb). 
 
 
 
